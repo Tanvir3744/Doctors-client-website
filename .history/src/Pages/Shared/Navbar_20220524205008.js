@@ -30,6 +30,9 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
+                <div class="navbar-end">
+                    <Link to='/login' class="btn">Get started</Link>
+                </div>
             </div>
         </div>
     );
