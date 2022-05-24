@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom'
-import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
 import Navbar from './Pages/Shared/Navbar';
 function App() {
@@ -7,9 +6,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/home' element={<Home />}></Route>
-        <Route path='/about' element={<About />}></Route>
+        <Route path='/' element={<Home/>}></Route>
       </Routes>
     </div>
   );
