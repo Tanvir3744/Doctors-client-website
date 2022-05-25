@@ -6,7 +6,11 @@ const Home = () => {
     return (
         <div>
             <Banner />
-            <InfoCards />
+            <div className='flex'>
+                <InfoCards />
+                <InfoCards />
+                <InfoCards />
+            </div>
         </div>
     );
 };

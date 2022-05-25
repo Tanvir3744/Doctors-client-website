@@ -6,7 +6,11 @@ const Home = () => {
     return (
         <div>
             <Banner />
-            <InfoCards />
+            <div className='flex justify-center container-sm'>
+                <InfoCards />
+                <InfoCards />
+                <InfoCards />
+            </div>
         </div>
     );
 };
